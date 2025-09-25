@@ -1,0 +1,34 @@
+@import url('https://fonts.google.com/share?selection.family=Saira:ital,wght@0,100..900;1,100..900');
+
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: black;
+    padding: 0;
+}
+header{
+    background: #1589b0;
+    padding: 2px;
+    color: rgb(3, 16, 27);
+    text-align: center;
+}
+section{
+    margin: 2px;
+    padding: 1.5px;
+    background: rgb(143, 237, 176);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3, h4 {
+    font-family: "Trebuchet MS", sans-serif;
+}
+ul {
+    list-style: square inside;
+}
+footer{
+    text-align: center;
+    background: #2e54df;
+    color: rgb(113, 194, 194);
+    padding: 1px;
+    margin-top: 2px;
+}
