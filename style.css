@@ -2,33 +2,46 @@
 
 body{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    color: black;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     padding: 0;
 }
-header{
-    background: #1589b0;
-    padding: 2px;
-    color: rgb(3, 16, 27);
+h1, h2, h3 {
+    color: #000000;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
     text-align: center;
 }
-section{
-    margin: 2px;
-    padding: 1.5px;
-    background: rgb(143, 237, 176);
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+th {
+ background-color: #2980b9;
+ color: white;
 }
-h1, h2, h3, h4 {
-    font-family: "Trebuchet MS", sans-serif;
+
+tr:nth-child(even) {
+ background-color: #ecf0f1;
 }
-ul {
-    list-style: square inside;
+
+.highlight {
+    background-color: #dff9fb;
 }
-footer{
-    text-align: center;
-    background: #2e54df;
-    color: rgb(113, 194, 194);
-    padding: 1px;
-    margin-top: 2px;
+.background-cell {
+  background-image: url('https://via.placeholder.com/150x50/eeeeee/cccccc?text=Fundo');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #333;
+}
+
+caption {
+ caption-side: top;
+ font-weight: bold;
+ margin-bottom: 10px;
 }

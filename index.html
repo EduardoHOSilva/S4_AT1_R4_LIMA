@@ -2,42 +2,129 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG</title>
-    <link rel="stylesheet" href="./style.css"> 
+    <title>Catálogo de Produtos para Loja de Artigos Esportivos</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <header>
-        <h1>ONG: VIDA</h1>
-        <p>Transformando vidas com bondade</p>
-    </header>
+    
+    <h1>Catálogo de Produtos - Loja de Artigos Esportivos</h1>
 
-    <section>
-        <article>
-         <h2>Objetivo</h2>
-         <p>Promover inclusão social e melhorar a qualidade de vida de pessoas em situação de vulnerabilidade.</p>
-        </article>        
-    </section>
-
-    <section>
-        <article>
-         <h3>Missão</h3>
-         <p>Ser referência nacional em transformação social.</p>
-        </article>        
-    </section>
-
-    <section>
-        <article>
-         <h4>Valor</h4>
+    <!--Lista-->
+    <h2>Categorias de produtos</h2>
+        
+    <ul>
+        <li>Vôlei
             <ul>
-              <li>Solidariedade</li>
-              <li>Bondade</li>
-              <li>Respeito</li>
+                <li>Bolas</li>
+                <li>Chuteiras</li>
             </ul>
-        </article>        
-    </section>
+        </li>
 
-    <footer>
-        <p>&copy; 2025 - Todos os direitos reservados.</p>
-    </footer>
+        <li>Corrida
+            <ul>
+                <li>Relógio</li>
+                <li>Tenis</li>
+            </ul>
+        </li>
+        
+    </ul>
+    
+    <!-- Lista Numerada -->
+    <h3>Mais Vendidos</h3>
+    <ol>
+        <li>Bola de Futebol Oficial</li>
+        <li>Tênis de Corrida Profissional</li>
+    </ol>
+
+    <!-- Lista de Definição -->
+    <h3>Termos Técnicos</h3>
+    <dl>
+        <dt>TPU</dt>
+        <dd>Material termoplástico utilizado em bolas de futebol.</dd>
+        <dt>Drop</dt>
+        <dd>Diferença de altura entre o calcanhar e a ponta do tênis.</dd>
+        <dt>Resistência Isotônica</dt>
+        <dd>Equipamentos que mantêm a resistência constante durante o movimento.</dd>
+    </dl>
+
+    <!-- Tabela de Características Técnicas -->
+    <h2>Características dos Produtos</h2>
+
+    <table class="tabela-produtos" >
+        <caption>Produtos em Destaque</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Descrição</th>
+                <th>Disponibilidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bola de Futebol Oficial</td>
+                <td>R$ 199,90</td>
+                <td class="background-cell">Costura à mão, material leve</td>
+                <td>Baixo estoque</td>
+            </tr>
+            <tr>
+                <td>Bola de vôlei Penalty</td>
+                <td>R$ 190,00</td>
+                <td>Peso de 240g, feito com Poliuretano</td>
+                <td>Em estoque</td>
+            </tr>
+            <tr class="highlight">
+                <td>Tênis de Corrida Profissional</td>
+                <td>R$ 195,47</td>
+                <td>Amortecimento em gel, leve e respirável</td>
+                <td>Disponível por encomenda</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"><strong>Os preços podem variar conforme a região.</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Tabela Encadeada: Produtos, Fornecedores e Preços-->
+    <h2> Suprimentos</h2>
+    <table class = "tabela-suprimentos">
+        <caption>Produtos e Detalhes</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Fornecedor</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td>Bola de Vôlei</td>
+                <td class="tabela-encadeada">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fornecedor</th>
+                                <th>Preço de Compra</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td>Decathlon</td>
+                                    <td>R$ 69,99</td>
+                                
+                                </tr>
+                                <tr>
+                                    <td>Penalty</td>
+                                    <td>R$ 49,99</td>
+                                    
+                                </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>        
+   
 </body>
